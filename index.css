@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+ width: 100%;
+ height: 100%;
+ background:linear-gradient(to right,rgb(231, 126, 40), rgb(235, 109, 157));
+ padding-top: 5%;
+ font-family: helvetica;
+}
+.main-container{
+    height: 90%;
+    width: 80%;
+    background-color: rgb(53, 50, 50);
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+.main-container>h1{
+    color: rgb(230, 99, 121);
+    font-size: 24px;
+}
+.flex-container{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+}
+.calculator{
+    width: 50%;
+    padding: 10px;
+
+}
+.calculator>small{
+    display: inline-block;
+    width: 40%;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.calculator>input{
+    background-color: transparent;
+    border: 1px solid rgb(236, 47, 88);
+    border-radius: 5px;
+    padding: 8px 18px;
+    margin-right: 10px;
+}
+.calculator>input::placeholder{
+    color: white;
+}
+.calculator>button{
+    padding: 9px 16px;
+    border: none;
+    color: white;
+    margin-left: -20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background:linear-gradient(to right,rgb(231, 126, 40), rgb(235, 109, 157));
+}
+#insurance{
+    width: 80%;
+}
+.calculator>p{
+    color:rgb(228, 51, 104) ;
+    margin: 25px 0;
+}
+.circles{
+    width: 50%;
+    height: 80%;
+
+}
+.circle1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 32px;
+    background:linear-gradient(to right top, rgb(243, 59, 120) , rgb(233, 124, 34), white, white);
+}
+.circle2{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: rgb(53, 48, 48);
+}
+.circles>h1{
+    text-align: center;
+    color: rgb(226, 128, 63);
+}
+.circles>p{
+    text-align: center;
+    color: white;
+}
+.circles>span:nth-child(1){
+    display: inline-block;
+    color: white;
+    width: 20%;
+    margin-left: 70%;
+    border-bottom: 1px solid white;
+}
+#span2{
+    display: inline-block;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 20%;
+}
+.result{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.res1{
+    color: rgb(128, 126, 126);
+}
+.res1>p{
+   padding-bottom:5px ;
+   border-bottom: 1px solid grey;
+}
